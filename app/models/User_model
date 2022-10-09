@@ -1,0 +1,9 @@
+<?php
+
+class User_model{
+    private $nama = 'Supidan Zam Zam';
+
+    public function getUser(){
+        return $this->nama;
+    }
+}
